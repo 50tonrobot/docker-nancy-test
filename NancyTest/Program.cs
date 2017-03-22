@@ -30,7 +30,7 @@ public class Program
 
 	public bool TestMe()
 	{
-		return true;
+		return false;
 	}
 
 	private static bool IsRunningOnMono()
