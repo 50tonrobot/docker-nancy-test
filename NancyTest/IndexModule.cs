@@ -5,7 +5,7 @@ public class IndexModule : NancyModule
 {
 	public IndexModule()
 	{
-		Get["/"] = _ => "Nancy: Hello World";
+		Get["/"] = _ => "Nancy: Hello World I am new";
 		Get["/os"] = _ => Environment.OSVersion.ToString();
 	}
 }
